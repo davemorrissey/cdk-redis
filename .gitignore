@@ -2,7 +2,8 @@
 !jest.config.js
 *.d.ts
 node_modules
-
-# CDK asset staging directory
+package-lock.json
+.vscode
 .cdk.staging
 cdk.out
+cdk.context.json
